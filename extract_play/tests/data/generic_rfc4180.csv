@@ -1,0 +1,6 @@
+boolean_col,string_col,date_col,timestamp_col,int_col,decimal_col,json_col
+true,Simple text,2025-08-27,2025-08-27T12:00:00Z,42,3.14159,"{""id"":1,""tags"":[""a"",""b""],""active"":true}"
+false,"He said ""hello, world""",2024-02-29,2024-02-29T23:59:59Z,-7,-0.0001,"{""note"":""Quotes ""inside"" and commas, too"",""list"":[1,2,3]}"
+true,"Comma, inside",1999-12-31,1999-12-31T00:00:00Z,0,1234567890.12,"{""meta"":{""env"":""prod"",""version"":1}}"
+false,,2000-01-01,2000-01-01T00:00:00Z,2147483647,0.1,[]
+true,UTF-8 ✓,2010-07-16,2010-07-16T08:30:00Z,-2147483648,99999.00001,"{""mixed"":{""bool"":false,""null"":null,""str"":""text""}}"
