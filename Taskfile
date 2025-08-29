@@ -1,0 +1,6 @@
+version: '3'
+
+tasks:
+  docker-compose-up:
+    cmds:
+      - docker compose up -d
